@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 1280px;
+    min-width: auto;
+    max-height: 40px;
+}
+
+body{
+    background-color: #001b1b;
+    max-width: 1280px;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+
+}
+
+header{
+    background-color: #403939;
+    padding: 20px;
+    transform: translate(0px , -170px);
+    width: 100%;
+    min-width: auto;
+    max-width: 1280px;
+    height: 30px;
+    position: fixed;
+    clear: both;
+    /*border: 1px solid red;*/
+}
+
+#principal{
+    
+    /*border: 1px solid red;*/
+    margin-top: 170px;
+    margin-left: 100px;
+
+  
+}
+
+li{
+    display: inline;
+
+}
+
+/*imagem to travel*/
+#logo{
+    /*border: 1px solid red;*/
+    width: 290px;
+    height: 150px;
+    float: left;
+    transform: translate(-25px , -65px);
+}
+
+/*DIV referente aos links (header)*/
+.link{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    color: #ffff;
+    text-decoration: none;
+    padding: 25px 28px 18px 30px;
+    font-size: 18pt;
+    /*border: 1px solid red;*/
+    margin-left: 35px;
+}
+
+.link:hover{
+    background-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#menu{
+    margin-top: auto;
+}
+
+/*ID referente ao botão register*/
+#btn-direito{
+    float: right;
+    height: 40px;
+    width: 150px;
+    padding: 0px 10px;
+    margin: 0px 0px 0px 0px;
+    /*border: 1px solid red;*/
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    transform: translate(05px , -5px);
+    color: #ffff;
+    position: relative;
+    
+}
+
+#btn-direito:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #9e9898;
+    color: white;
+}
+
+#btn-direito a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ID referente ao botão login*/
+#btn-esquerdo{
+    float: right;
+    height: 50px;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 0px;
+    /*border: 1px solid red;*/
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transform: translate(0 , -10px);
+    background-color: #403939;
+    position: relative;
+}
+
+#btn-esquerdo:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: #696464;
+    color: black;
+}
+
+#btn-esquerdo a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+
+
+.btn{
+margin-left: 200px;
+display: grid;
+margin-top: 70px;
+position: relative;
+height: 60px;
+width: 700px;
+text-align: center;
+font-size: 30pt;
+border-radius: 50px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #136b5c;
+    color: rgb(255, 255, 255);
+}
+
+.back{
+    margin-top: 20px;
+    border-radius: 500px;
+    font-size: 35px;
+    height: 100px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #136b5c;
+    color: rgb(255, 253, 253);
+}

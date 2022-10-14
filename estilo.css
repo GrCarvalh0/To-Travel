@@ -1,0 +1,267 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 1280px;
+    min-width: auto;
+}
+
+body{
+    background-color: #001b1b;
+    max-width: 1280px;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+
+}
+
+header{
+    background-color: #403939;
+    padding: 20px;
+    width: 100%;
+    min-width: auto;
+    max-width: 1280px;
+    height: 30px;
+    position: fixed;
+    /*border: 1px solid red;*/
+}
+
+li{
+    display: inline;
+
+}
+/*ID da div que agrupa toda a página*/
+#centro{
+    margin: 0px 0px 0px 0px;
+    color: white;
+    /*border: 1px solid red;*/
+    max-width: 1280px;
+    font-size: 22pt;
+}
+
+/*imagem to travel*/
+#logo{
+    /*border: 1px solid red;*/
+    width: 290px;
+    height: 150px;
+    float: left;
+    transform: translate(-25px , -65px);
+}
+
+/*DIV referente aos links (header)*/
+.link{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    color: #ffff;
+    text-decoration: none;
+    padding: 25px 28px 18px 30px;
+    font-size: 18pt;
+    /*border: 1px solid red;*/
+    margin-left: 35px;
+}
+
+.link:hover{
+    background-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#menu{
+    margin-top: auto;
+}
+
+/*ID referente ao botão register*/
+#btn-direito{
+    float: right;
+    height: 40px;
+    width: 150px;
+    padding: 0px 10px;
+    margin: 0px 0px 0px 0px;
+    /*border: 1px solid red;*/
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    transform: translate(05px , -5px);
+    color: #ffff;
+
+}
+
+#btn-direito:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #9e9898;
+    color: white;
+}
+
+#btn-direito a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ID referente ao botão login*/
+#btn-esquerdo{
+    float: right;
+    height: 50px;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 0px;
+    /*border: 1px solid red;*/
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transform: translate(0 , -10px);
+    background-color: #403939;
+}
+
+#btn-esquerdo:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: #696464;
+    color: black;
+}
+
+#btn-esquerdo a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+/*conteúdo da primeira parte do site index.html*/
+#principal{
+    
+    padding: 150px 0px 150px 100px;
+    /*border: 1px solid red;*/
+    margin: 0px 0px 150px 0px;
+}
+
+/*título "nunca foi tão..." */
+.ttl{
+    max-width: 450px;
+    /*border: 1px solid red;*/
+}
+
+/*txt "com a to travel..." */
+.txt{
+    max-width: 450px;
+    font-size: 18pt;
+    text-align: justify;
+    /*border: 1px solid red;*/
+}
+
+/*imagem página inicial*/
+#img-ti{
+    /*border: 1px solid red;*/
+    /*transform: translate(0px , -350px);*/
+    float: right;
+    margin: -300px 30px 0px 0px;
+    height: 500px;
+    width: 700px;
+}
+
+/*Botão get started*/
+#btn-get{
+    height: 50px;
+    width: 200px;
+    font-size: 16pt;
+    padding: 0px 20px;
+    margin: 40px 0px 0px 0px;
+    /*border: 1px solid red;*/
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#btn-get a{
+    text-decoration: none;
+    color: black;
+}
+
+#btn-get:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #279797;
+    color: black;
+}
+
+/*conteúdo da segunda parte do site index.html*/
+#principal2{
+    /*border: 1px solid red;*/
+    height: auto;
+    margin-top: 255px;
+    
+}
+
+/*Título tipo 4*/
+.ttl4{
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding: 150px 0px 5px 10px;
+    width: 350px;
+    margin: 0px 0px 50px 500px;
+}
+
+/*Imagem do celular*/
+#celular{
+    width: 350px;
+    height: 600px;
+    /*border: 1px solid red;*/
+    margin-top: -30px;
+    margin-left: 100px;
+    
+}
+
+/*Primeira descrição To Travel "Somos uma empresa..." */
+.desc1{
+    margin-left: 30px;
+    margin-right: 30px;
+    /*border: 1px solid red;*/
+    text-align: justify;
+}
+
+/*Opções na To Travel*/
+.desc2{
+    margin: -500px 70px 300px 500px;
+    /*border: 1px solid red;*/
+}
+
+/*conteúdo da segunda parte do site index.html*/
+#principal3{
+    /*border: 1px solid red;*/
+    height: auto;
+}
+
+/*sessão que pega todo o conteúdo da terceira parte*/
+#conteudo{
+    margin: 0px 20px;
+    /*border: 1px solid red;*/
+    text-align: justify;
+}
+ 
+/*imagens aba comunidade e como viajar*/
+.img-prt3{
+    /*border: 1px solid red;*/
+    margin-left: 350px;
+    margin-top: 50px;
+    height: 509px;
+    width: 706px;
+}
+
+/*espaçamento do texto e imagem*/
+.espaco{
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    /*margin-bottom: 50px;*/
+}
+
+/*Rodapé da página*/
+#ftr{
+    background-color: #403939;
+    margin-top: 150px;
+    width: 102%;
+    color: white;
+    text-align: center;
+    /*border: 1px solid red;*/
+    height: 100px;
+}
+h4{
+    padding: 40px;
+}

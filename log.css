@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #014141;
+    /*background-image: url(imagens/paisagem_pico.png);*/
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    max-height: 100px;
+    margin: 0px 0px 0px 0px;
+    
+
+}
+
+/*div que está com toda a página*/
+#principal{
+    color: rgb(175, 175, 175);
+    font-size: 22pt;
+    /*border: 1px solid red;*/
+    font-family: 'Bebas Neue';
+    background-color: #8ca19a;
+    padding: 20px;
+    margin-left: 100px;
+    width: 400px;
+    height: 610px;
+    position: relative;
+    display: inline-block;
+}
+
+#conteudo{
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+
+#moca{
+    float: right;
+    /*border: 1px solid red;*/
+}
+
+/*logo To Travel*/
+#ltt{
+    width: 420px;
+    height: 200px;
+    /*border: 1px solid red;*/
+    
+}
+
+/*Texto usuário e Senha*/
+.txt{
+    /*border: 1px solid red;*/
+    width: 100px;
+    margin-bottom: 0px;
+    color: Black;   
+}
+
+.txt2 a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/*inputs*/
+.lg{
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 2px 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(238, 234, 234);
+    
+    /*border: 1px solid red;*/
+}
+
+/*Botão de Conectar*/
+#btn-lg{
+    /*border: 1px solid red;*/
+    box-shadow: 2px 3px;
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#btn-lg:hover{
+    cursor: pointer;
+    background-color: #001b1b;
+}
+
+/*texto de registre-se*/
+.txt2{
+    margin: 50px 0px 0px 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.txt2 a{
+    font-size: 20px;
+    color: rgb(17, 99, 67);
+}

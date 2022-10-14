@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 1280px;
+    min-width: auto;
+}
+
+body{
+    background-color: #001b1b;
+    max-width: 1280px;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+}
+
+#fm{
+    color: white;
+    font-size: 22pt;
+    margin-top: 30px;
+    margin-left: 80px;
+    /*border: 1px solid red;*/
+    
+}
+
+.ipt{
+    border-radius: 50px;
+    height: 30px;
+    margin: 15px 0px 10px 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+#org{
+    width: 700px;
+}
+
+#dtn{
+    width: 700px;
+}
+
+#tjt{
+    transform: translate(400px , -290px);
+}
+
+.back{
+    border-radius: 500px;
+    font-size: 30px;
+    height: 70px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #136b5c;
+    color: rgb(255, 253, 253);
+}
+
+.conf{
+    border-radius: 600px;
+    font-size: 30px;
+    height: 60px;
+    margin-left: 100px;
+}
+.conf a{
+    text-decoration: none;
+    color: black;
+}
+
+.conf:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #136b5c;
+    color: rgb(255, 253, 253);
+}
+
+#map{
+    float: right;
+    margin-right: 100px;
+}
